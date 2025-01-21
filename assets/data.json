@@ -1,0 +1,183 @@
+[
+    {
+      "username": "john doe",
+      "userIMG": "./assets/images/thumb-1.png",
+      "joiningDate": "21-1-2020",
+      "coursename": "complete hTML tutorial",
+      "courseIMG": "./assets/images/pic-2.jpg",
+      "lecturlist": [
+        {
+          "lecturename": "html lecture 1",
+          "lectureURL": "https://www.youtube.com/embed/XXrpsQqAlIQ?si=JTGLnNH2BreK1-9y"
+        },
+        {
+          "lecturename": "html lecture 2",
+          "lectureURL": "https://www.youtube.com/embed/8bZ4RPjOPYE?si=CqjkHn0Cld5-wjOZ"
+        },
+        {
+          "lecturename": "html lecture 3",
+          "lectureURL": "https://www.youtube.com/embed/1YO_5jXC-bo?si=RtcF3qyx_uWmREhZ"
+        },
+        {
+          "lecturename": "html lecture 4",
+          "lectureURL": "https://www.youtube.com/embed/YNSnugnQYiI?si=ty6UfdoDcXtqF9u4"
+        }
+      ],
+      "attachedfiles":[
+        {"filename":"HTML file 1","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"HTML file 2","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"HTML file 3","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"}
+      ]
+    },
+    {
+      "username": "Rahul kumar",
+      "userIMG": "./assets/images/thumb-2.png",
+      "joiningDate": "21-1-2020",
+      "coursename": "complete CSS tutorial",
+      "courseIMG": "./assets/images/pic-3.jpg",
+      "lecturlist": [
+        {
+            "lecturename": "CSS lecture 1",
+            "lectureURL": "https://www.youtube.com/embed/XXrpsQqAlIQ?si=JTGLnNH2BreK1-9y"
+          },
+          {
+            "lecturename": "CSS lecture 2",
+            "lectureURL": "https://www.youtube.com/embed/8bZ4RPjOPYE?si=CqjkHn0Cld5-wjOZ"
+          },
+          {
+            "lecturename": "CSS lecture 3",
+            "lectureURL": "https://www.youtube.com/embed/1YO_5jXC-bo?si=RtcF3qyx_uWmREhZ"
+          },
+          {
+            "lecturename": "CSS lecture 4",
+            "lectureURL": "https://www.youtube.com/embed/YNSnugnQYiI?si=ty6UfdoDcXtqF9u4"
+          }
+      ],
+      "attachedfiles":[
+        {"filename":"CSS file 1","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"CSS file 2","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"CSS file 3","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"}
+      ]
+    },
+    {
+      "username": "Ajay Makkan",
+      "userIMG": "./assets/images/thumb-3.png",
+      "joiningDate": "21-1-2020",
+      "coursename": "complete Javascript tutorial",
+      "courseIMG": "./assets/images/pic-4.jpg",
+      "lecturlist": [
+        {
+            "lecturename": "Javascript lecture 1",
+            "lectureURL": "https://www.youtube.com/embed/XXrpsQqAlIQ?si=JTGLnNH2BreK1-9y"
+          },
+          {
+            "lecturename": "Javascript lecture 2",
+            "lectureURL": "https://www.youtube.com/embed/8bZ4RPjOPYE?si=CqjkHn0Cld5-wjOZ"
+          },
+          {
+            "lecturename": "Javascript lecture 3",
+            "lectureURL": "https://www.youtube.com/embed/1YO_5jXC-bo?si=RtcF3qyx_uWmREhZ"
+          },
+          {
+            "lecturename": "Javascript lecture 4",
+            "lectureURL": "https://www.youtube.com/embed/YNSnugnQYiI?si=ty6UfdoDcXtqF9u4"
+          }
+      ],
+      "attachedfiles":[
+        {"filename":"Javascript file 1","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"Javascript file 2","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"Javascript file 3","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"}
+      ]
+    },
+    {
+      "username": "willy wonka",
+      "userIMG": "./assets/images/thumb-4.png",
+      "joiningDate": "21-1-2020",
+      "coursename": "complete Bootsrap tutorial",
+      "courseIMG": "./assets/images/pic-5.jpg",
+      "lecturlist": [
+        {
+            "lecturename": "Bootsrap lecture 1",
+            "lectureURL": "https://www.youtube.com/embed/XXrpsQqAlIQ?si=JTGLnNH2BreK1-9y"
+          },
+          {
+            "lecturename": "Bootsrap lecture 2",
+            "lectureURL": "https://www.youtube.com/embed/8bZ4RPjOPYE?si=CqjkHn0Cld5-wjOZ"
+          },
+          {
+            "lecturename": "Bootsrap lecture 3",
+            "lectureURL": "https://www.youtube.com/embed/1YO_5jXC-bo?si=RtcF3qyx_uWmREhZ"
+          },
+          {
+            "lecturename": "Bootsrap lecture 4",
+            "lectureURL": "https://www.youtube.com/embed/YNSnugnQYiI?si=ty6UfdoDcXtqF9u4"
+          }
+      ],
+      "attachedfiles":[
+        {"filename":"Bootsrap file 1","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"Bootsrap file 2","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"Bootsrap file 3","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"}
+      ]
+    },
+    {
+      "username": "Justin bieber",
+      "userIMG": "./assets/images/thumb-5.png",
+      "joiningDate": "21-1-2020",
+      "coursename": "complete jQuery tutorial",
+      "courseIMG": "./assets/images/pic-6.jpg",
+      "lecturlist": [
+        {
+            "lecturename": "jQuery lecture 1",
+            "lectureURL": "https://www.youtube.com/embed/XXrpsQqAlIQ?si=JTGLnNH2BreK1-9y"
+          },
+          {
+            "lecturename": "jQuery lecture 2",
+            "lectureURL": "https://www.youtube.com/embed/8bZ4RPjOPYE?si=CqjkHn0Cld5-wjOZ"
+          },
+          {
+            "lecturename": "jQuery lecture 3",
+            "lectureURL": "https://www.youtube.com/embed/1YO_5jXC-bo?si=RtcF3qyx_uWmREhZ"
+          },
+          {
+            "lecturename": "jQuery lecture 4",
+            "lectureURL": "https://www.youtube.com/embed/YNSnugnQYiI?si=ty6UfdoDcXtqF9u4"
+          }
+      ],
+      "attachedfiles":[
+        {"filename":"jQuery file 1","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"jQuery file 2","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"jQuery file 3","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"}
+      ]
+    },
+    {
+      "username": "mark jukerburg",
+      "userIMG": "./assets/images/thumb-6.png",
+      "joiningDate": "21-1-2020",
+      "coursename": "complete SASS tutorial",
+      "courseIMG": "./assets/images/pic-1.jpg",
+      "lecturlist": [
+        {
+            "lecturename": "SASS lecture 1",
+            "lectureURL": "https://www.youtube.com/embed/XXrpsQqAlIQ?si=JTGLnNH2BreK1-9y"
+          },
+          {
+            "lecturename": "SASS lecture 2",
+            "lectureURL": "https://www.youtube.com/embed/8bZ4RPjOPYE?si=CqjkHn0Cld5-wjOZ"
+          },
+          {
+            "lecturename": "SASS lecture 3",
+            "lectureURL": "https://www.youtube.com/embed/1YO_5jXC-bo?si=RtcF3qyx_uWmREhZ"
+          },
+          {
+            "lecturename": "SASS lecture 4",
+            "lectureURL": "https://www.youtube.com/embed/YNSnugnQYiI?si=ty6UfdoDcXtqF9u4"
+          }
+      ],
+      "attachedfiles":[
+        {"filename":"SASS file 1","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"SASS file 2","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"},
+        {"filename":"SASS file 3","fileURL":"https://www.youtube.com/watch?v=UB1O30fR-EE"}
+      ]
+    }
+  ]
+  
