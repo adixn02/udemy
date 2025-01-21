@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --main-color:#8e44ad;
+    --red:#e74c3c;
+    --orange:#f39c12;
+    --light-color:#888;
+    --light-bg:#eee;
+    --black:#2c3e50;
+    --white:#fff;
+    --logo-color:#ec5454;
+    --border:.1rem solid rgba(0,0,0,.2);
+ }
+ 
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+*::selection{
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+
+*::-webkit-scrollbar{
+    width: 0.51rem;
+    height:0.51rem;
+}
+
+*::-webkit-scrollbar-track{
+    background-color: transparents;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+    border-radius: 20rem;
+}
+
+body{
+    background-color: var(--light-bg);
+ }
+
+body.active{
+    padding-left: 40rem;
+}
+
+/* utility classes strats */
+.side-bar #close-btn{
+   font-size: 2.9rem;
+}
+.side-bar nav .fas{
+    font-size: 2.9rem;
+}
+.blue-btn{
+    display: block;
+    background-color: var(--logo-color);
+    color: white;
+    font-size: 1.8rem;
+    padding: 0.3em;
+    width: 100%;
+    border-radius: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+.yellow-btn{
+    margin-top: 1rem;
+    text-transform: capitalize;
+    background-color: var(--orange);
+    color: white;
+    font-size: 1.8rem;
+    padding: 01rem 3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.thick-dark{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 0.6em;
+}
+.thin-gray{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin: 0.6em;
+}
+.like-and-comments p span{
+    color: var(--logo-color);
+    font-size: 1.8rem;
+}
+
+.gray-back{
+    display: inline-block;
+    background-color: var(--light-color);
+    color: white;
+    margin: 1rem 0 0 1rem;
+    font-size: 1.8rem;
+    border-radius: 2rem;
+    text-transform: capitalize;
+    padding: 0.4em;
+}
+.gray-back:hover{
+    transform: scale(110%);
+    background-color: var(--logo-color);
+    color: #fff;
+}
+
+.tutor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+gap: 1.5rem;
+margin-bottom: 2.5rem;
+} 
+
+.name{
+    font-size: 1.9rem;
+    text-transform: capitalize;
+}
+p.joining-date{
+    font-size: 1.4rem;
+    color: gray;
+
+}
+/* utility classes ends */
+
+header.header {
+    position: sticky;
+    /* z-index: 999; */
+    background-color: #fff;
+}
+
+.flex{
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.flex a img{
+    height:10rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+form.search-form{
+    width: 60rem;
+    border: 2px solid #646466;
+    padding: 0.1em 02rem 0.1em 2rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+input.search-bar{
+    width: 90%;
+    font-size: 2.4rem;
+    color: black;    
+    padding : 0.2em 0.8em;
+}
+
+button[type="submit"]{
+    background-color: transparent;
+    font-size: 2rem;
+}
+button[type="submit"]:hover{
+    color: var(--logo-color);
+    cursor: pointer;
+}
+
+.header-icons .fas{
+    font-size: 3.2rem;
+}
+.fas:hover{
+    scale: 150%;
+    cursor: pointer;
+}
+
+.fa-user{
+    color: var(--logo-color);
+}
+
+.header-icons{
+position: relative;
+}
+
+.header-icons .fas{
+    margin-right: 3rem;
+}
+
+.header .flex .profile{
+    position: absolute;
+    top: 110%; right: 5%;
+    text-align: center;
+    background-color: #fff;
+    width: 30rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    height: auto;
+    transform: scale(0);
+    transition: .2s linear ;
+    transform-origin: top right;
+    box-shadow: 0 0 20vw 20vh rgba(0,0,0,.2);
+
+}
+
+.header .flex .profile.active{
+    transform: scale(1) ;
+}
+
+.profile h3.name{
+    font-size: 2.4rem;
+}
+.profile p.role{
+    font-size: 1.6rem;
+    color: #888;
+}
+
+#search-btn{
+    display: none;
+}
+
+/* ################## */
+
+/* side bar strats */
+.side-bar{
+    width: 40rem;
+    padding: 3rem 1rem;
+    background-color: #fff;
+height: 100vh;
+z-index: 10001;
+position: fixed;
+top: 0;
+transform: scale(0);
+}
+
+.side-bar.active{
+    transform:scale(1);
+    box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+    /* z-index: 1000; */
+}
+
+.side-bar .profile{
+    margin-top: 2rem;
+text-align: center;
+}
+
+.side-bar nav a{
+    display: block;
+    margin-top: 3rem;
+    color:black;
+}
+
+.side-bar nav a span{
+    color:black;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    margin-left: 0.6em;
+}
+
+.side-bar nav a:hover{
+    margin-left: 1rem;
+    transition: .2s linear;
+}
+
+#close-btn{
+    color: black;
+}
+
+#close-btn:hover{
+    color: red;
+}
+
+
+
+/* side bar endss */
+
+/* ################################### */
+
+/* quicks options starts */
+
+
+
+ .grid-boxes{
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+gap: 1.6rem;   
+
+} 
+
+.flex-options .grid-boxes h2{
+    font-size: 3.4rem;
+    text-transform: capitalize;
+    color: var(--black);
+    display: block;
+    width: 100%;
+    margin: 0.8em 0;
+    border-bottom: var(--border) ;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.box{
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #aaa;
+    border-radius: 5rem;
+    padding: 3rem;
+    background: #fff;
+}
+
+.box a i{
+    font-size: 1.8rem;
+    margin: 0.6em;
+}
+
+.box a span{
+    font-size: 1.8rem;
+margin-right: 0.6em;
+
+}
+
+.become-tutor p{
+    font-size: 1.8rem;
+margin: 0.6em;  
+}
+
+/* quicks options ends */
+
+/* coureses styling start */
+.courses{
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(48rem, 1fr));
+   /* grid-template-columns: 1fr 1fr 1fr; */
+gap: 1.6rem;   
+}
+
+.courses h2{
+    font-size: 3.4rem;
+    text-transform: capitalize;
+    color: var(--black);
+    display: block;
+    width: 100%;
+    margin: 0.8em 0;
+    border-bottom: var(--border) ;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.playlist{
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.playlist img.post{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.playlist span.imga-over{
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    background-color: rgba(0,0,0,.8);
+    border-radius: 2rem;
+    padding: 0.6em;
+    font-size:  3rem;
+    color: #fff;
+}
+
+
+
+/* coureses styling ends */
+
+
+/* ########################################## */
+
+/* media queries */
+
+@media (max-width:500px){
+    html{
+        font-size: 50%;
+}
+
+.flex{
+    position: relative;
+}
+#search-btn{
+    display: inline-block;
+}
+
+    form.search-form{
+        position: absolute;
+        top: 110%;
+        width: auto;
+        margin: 0 auto;
+        background-color: #eee;
+        transform: scale(0);
+        transition: .2s linear;
+        transform-origin: top;
+    }
+    form.search-form.active{
+        transform: scale(1);
+    }
+
+    header.header.active{
+        padding-left: 0rem;
+    }
+}
+
